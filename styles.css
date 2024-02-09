@@ -1,0 +1,48 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.flex-container{
+     display: inline-flex; position: relative; left: 25%; column-gap: 40%;
+}
+.text-container{
+    text-align: center; margin: auto; position: relative;
+}
+#text{
+    color: aliceblue;
+}
+h1, .flex-item, .contact{
+color: aliceblue;
+}
+
+
+.contact{
+   position: relative; margin: auto; bottom: -40%;
+}
+main{
+    position: relative; top: 15%; height: 70%;
+}
+.flex-container2{
+    display: inline-flex; position: relative; left: -20%; column-gap: 30%;
+}
+#navbar1{
+    color: aliceblue; text-decoration: none;}
+a:hover:not(#navbar1){
+    background-color: gray; width: 15%; height: 50%; padding: 2% 2% 2% 2%; border-radius: 2px;
+}
+i{
+    color:aliceblue;
+}
+#none:hover{
+    background-color: gray; padding: 2% 2% 2% 2%; border-radius: 2px;
+}
+#navbar1:hover{
+    background-color: gray;padding: 2% 2% 2% 2%; border-radius: 2px;
+}
+body{
+    text-align: center; background-image: url('img/806443.jpg'); background-size: cover; background-repeat: no-repeat;font-size:medium;
+    font-family:'Courier New', Courier, monospace
+}
